@@ -1,0 +1,22 @@
+# Copy to .dev.vars for local `wrangler dev`. Never commit real values.
+
+TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+TWILIO_AUTH_TOKEN=your_auth_token
+TWILIO_PHONE_NUMBER=+15551234567
+
+# HMAC key for dashboard session cookies (32+ random bytes)
+SESSION_SECRET=change-me-to-a-long-random-string
+
+# GitHub OAuth (https://github.com/settings/developers)
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+
+# Comma-separated GitHub logins and/or emails allowed into the dashboard
+ALLOWED_USERS=your-github-login,you@registermysite.com
+
+# Optional bootstrap login when OAuth is not configured yet
+DASHBOARD_USER=admin
+DASHBOARD_PASSWORD=
+
+# Optional: exact public webhook URL Twilio is configured with
+# TWILIO_WEBHOOK_URL=https://sms-bot-registermysite.example.workers.dev/webhooks/twilio/sms
