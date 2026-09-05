@@ -45,7 +45,8 @@ Nothing leaves the Cloudflare + Twilio boundary.
 ## 2. Install
 
 ```bash
-cd sms-bot-registermysite
+git clone https://github.com/RegisterMySite-com/VoiP-sms-bot.git
+cd VoiP-sms-bot
 npm install
 cp .dev.vars.example .dev.vars
 ```
